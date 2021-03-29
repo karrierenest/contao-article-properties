@@ -1,5 +1,5 @@
 {
-    "name": "lumturo/article-config-bundle",
+    "name": "lumturo-net/article-config-bundle",
     "type": "contao-bundle",
     "description": "Article config bundle for Contao4",
     "homepage": "https://contao.org",
