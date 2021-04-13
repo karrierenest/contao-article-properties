@@ -1,4 +1,4 @@
-#Contao: Artikel Eigenschaften Bundle
+# Contao: Artikel Eigenschaften Bundle
 
 Dieses Bundle erweitert die Aktikel-Konfiguration. Für jeden Artikel kann folgendes definiert werden:
 
