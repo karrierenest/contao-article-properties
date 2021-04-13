@@ -21,8 +21,8 @@ Datenbankfelder zu erstellen.
 
 ## Eigene Bundle-Konfiguration
 
-Die ausgegebenen CSS Klassen können überschrieben werden. Dazu muss eine Datei `config.yml` im Ordner `app/config/` erstellt
-werden. Dort kann die Bundle-Konfiguration wie folgt überschrieben werden:
+Die ausgegebenen CSS Klassen können überschrieben bzw. beliebig erweitert werden. Dazu muss eine Datei `config.yml` im Ordner `app/config/` erstellt
+werden. Dort kann die Bundle-Konfiguration wie folgt überschrieben/erweitert werden:
 
 ```yaml
 parameters:
@@ -51,3 +51,10 @@ parameters:
 Der erste Wert (zb. `container-fluid`) bestimmt die CSS-Klasse.
 
 Der zweite Wert (zb. `Fixed`) bestimmt den Wert, welcher im Select-Menü im Backend angezeigt wird.
+
+Neue CSS Klassen können unter der jeweiligen Sektion hinzugefügt werden. Bspw.:
+
+```yaml
+article.background-colors:
+  bg-color-yellow: Gelb
+```
