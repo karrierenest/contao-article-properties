@@ -10,10 +10,10 @@ declare(strict_types=1);
  * @license LGPL-3.0-or-later
  */
 
-namespace lumturo\ArticleConfigBundle;
+namespace LumturoNet\ArticlePropertiesBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ArticleConfigBundle extends Bundle
+class ArticlePropertiesBundle extends Bundle
 {
 }

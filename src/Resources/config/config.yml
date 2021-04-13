@@ -1,0 +1,21 @@
+parameters:
+  article.paddings:
+    section-padding-normal: Normal
+    section-padding-none: Keiner
+  article.containers:
+    container: Fixed
+    container-fluid: Fluid
+    container-indent: Eingerückt
+  article.background-colors:
+    bg-color-white: Weiß
+    bg-color-black: Schwarz
+    bg-color-red: Rot
+  article.background-sizes:
+    bg-image-contain: Innen
+    bg-image-cover: Ausgefüllt
+    bg-image-full: Vollflächig
+  article.background-positions:
+    bg-image-center: Zentriert
+  article.text-colors:
+    text-bright: Hell
+    text-dark: Dunkel

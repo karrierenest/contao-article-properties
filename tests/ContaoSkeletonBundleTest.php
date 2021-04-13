@@ -10,17 +10,17 @@ declare(strict_types=1);
  * @license LGPL-3.0-or-later
  */
 
-namespace lumturo\ArticleBundle\Tests;
+namespace LumturoNet\ArticlePropertiesBundle\Tests;
 
-use lumturo\ArticleBundle\ArticleBundle;
+use LumturoNet\ArticlePropertiesBundle\ArticlePropertiesBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoSkeletonBundleTest extends TestCase
 {
     public function testCanBeInstantiated(): void
     {
-        $bundle = new ArticleBundle();
+        $bundle = new ArticlePropertiesBundle();
 
-        $this->assertInstanceOf('lumturo\ArticleBundle\ArticleBundle', $bundle);
+        $this->assertInstanceOf('LumturoNet\ArticlePropertiesBundle\ArticlePropertiesBundle', $bundle);
     }
 }
