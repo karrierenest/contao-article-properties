@@ -21,7 +21,7 @@ Datenbankfelder zu erstellen.
 
 ## Eigene Bundle-Konfiguration
 
-Die ausgegebenen CSS Klassen können überschrieben bzw. beliebig erweitert werden. Dazu muss eine Datei `config.yml` im Ordner `app/config/` erstellt
+Die ausgegebenen CSS Klassen können überschrieben bzw. beliebig erweitert werden. Dazu muss eine Datei `config.yml` im Ordner `config/` erstellt
 werden. Dort kann die Bundle-Konfiguration wie folgt überschrieben/erweitert werden:
 
 ```yaml
